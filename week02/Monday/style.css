@@ -1,0 +1,60 @@
+body {
+    background-color: lightblue;
+}
+
+p {
+    color: azure;
+    font-style: bold;
+}
+
+.author {
+    color: azure;
+    font-style: italic;
+}
+
+.uppercase-text {
+    color: azure;
+    text-transform: uppercase;
+}
+
+.capitalize-text {
+    color: azure;
+    text-transform: capitalize;
+}
+
+.line-through-text {
+    color: azure;
+    text-decoration: line-through;
+}
+
+.underline-text {
+    color: azure;
+    text-decoration: underline;
+}
+
+.my-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.my-link:hover {
+    color: black;
+}
+
+.my-link:visited {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.lorem-text {
+    color: azure;
+    text-transform: capitalize;
+}
+
+h2 {
+    color: azure;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
