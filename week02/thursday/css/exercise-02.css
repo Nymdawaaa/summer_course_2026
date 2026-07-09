@@ -1,0 +1,107 @@
+.box-1 {
+width: 300px;
+height: 150px;
+border-top: 3px solid red;
+border-right: 3px dashed green;
+border-left: 3px solid orange;
+border-bottom: 3px dotted blue;
+}
+.box-2 {
+    width: 300px;
+    height: 150px;
+    border: 3px solid gray;
+    border-radius: 30px;
+}
+.box-3-1 {
+    background-color: lightblue;
+    margin: 20px;
+    padding: 10px;
+}
+.box-3-2 {
+    background-color: lightgreen;
+    margin: 10px;
+    padding: 20px;
+}
+.box-4 {
+  width: 200px;
+  padding: 20px;
+  background-color: lightcoral;
+}
+.base-box {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  border: 5px solid #333;
+  margin-bottom: 20px;
+  background-color: beige;
+}
+.box-5-2 {
+  box-sizing: border-box;
+}
+.green-box {
+  width: 250px;
+  height: 150px;
+  background-color: lightgreen;
+  display: inline-block;
+}
+.blue-box {
+  width: 150px;
+  height: 100px;
+  background-color: lightblue;
+  display: inline-block;
+  margin-left: -50px;
+  vertical-align: top;
+  margin-top: 20px;
+}
+.box-7 {
+  background-color: lightgreen;
+  padding: 80px;
+  display: inline-block;
+}
+.box-8 {
+  background-color: lightcoral;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}.outer-9 {
+  background-color: blue;
+  padding: 20px;
+  border: 5px dashed navy;
+  width: 400px;
+}
+.inner-9 {
+  background-color: red;
+  padding: 20px;
+  color: white;
+}
+.container-10 {
+  background-color: powderblue;
+  padding: 20px;
+  width: 400px;
+}
+.box-10-1 {
+  background-color: lightgreen;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.box-10-2 {
+  background-color: lightpink;
+  border: 1px dashed black;
+  padding: 20px;
+}
+.timeline-container {
+  background-color: lightpink;
+  padding: 20px;
+  width: 400px;
+}
+.timeline-item {
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+}
+.left-text {
+  text-align: left;
+}
+.right-text {
+  text-align: right;
+}

@@ -1,0 +1,114 @@
+h3 {
+    color: navy;
+}
+.pink-text {
+    color: #fb7d9e
+}
+.rgb-pink {
+    color: rgb(108, 29, 219)
+}
+.blue-box {
+    background-color: blue;
+    width: 400px;
+    height: 300px;
+}
+.yellow-box {
+    background-color: yellow;
+    width: 150px;
+    height: 50px;
+    opacity: 0.5;
+}
+.exercise {
+    background-color: white;
+    padding: 20px;
+}
+.dark-text{
+    color: darkblue ;
+}
+.color-palete  {
+    display: flex;
+    gap: 15px;
+}
+.color-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+}
+#clr1 {
+    background-color: #fb7d9e;
+}
+ #clr2{
+    background-color: aquamarine;
+}
+#clr3 {
+    background-color: blueviolet;
+}
+#clr4 {
+    background-color: bisque;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td {
+    border: 1px solid yellow;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: gold;
+    color: azure;
+}
+.dawaa {
+    background-color: #fb7d9e;
+
+}
+.mygmar {
+    background-color: aquamarine;
+}
+.lhagva {
+    background-color: hotpink;
+}
+.image-1 {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+.exercise-08 {
+    background-color: yellow;
+    padding: 30px;
+    display: inline-block;
+}
+.exercise-9-body {
+    background-color: #fb7d9e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-container {
+    background-color: green;
+    width: 600px;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+}
+.circle-shape {
+    width: 60px;
+    height: 60px;
+    background-color: brown;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.square-shape {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin-bottom: 20px;
+}
+.text-box {
+    background-color: blue;
+    color: pink;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+
+}
