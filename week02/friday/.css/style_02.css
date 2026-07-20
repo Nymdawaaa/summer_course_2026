@@ -1,0 +1,26 @@
+main {
+    background-color: pink;
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgba(red, green, blue, alpha);
+    margin: auto;
+}
+section{
+    width: 300px;
+    height: 80px;
+    background-color: aqua;
+    margin: 30px;
+    overflow: scroll;
+}
+#box {
+    width: 250px;
+    margin: 0 auto;
+    border: 5px green dotted;
+
+}
+#inner-box {
+    width: 100%;
+    border: 5px red solid;
+    padding-top: 30px;
+    box-sizing: border-box;
+}

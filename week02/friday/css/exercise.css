@@ -1,0 +1,89 @@
+#box {
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+}
+
+#box-2 {
+    height: 300px;
+    width: 500px;
+    background-color: blue;
+}
+#box-3 {
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+#boxx {
+   height: 80px;
+background-color: blue;
+overflow-y: scroll;
+}
+#main1 {
+    height: 200px;
+    width: 350px;
+    background-color: aqua;
+    overflow: scroll;
+}
+#box-01 {
+    height: 100px;
+    width: 150px;
+    background-color: pink;
+    border: 1px solid black;
+    overflow: scroll;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+#box-02 {
+    height:100px ;
+    width: 150px;
+    background-color: yellow;
+    border: 1px solid black; 
+    overflow: scroll;
+    display: inline-block;
+    margin-left: 10px;
+}
+.ex6-container {
+    display: flex;
+    gap: 10px;
+}
+
+.ex6-column {
+    flex: 1;
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+.ex7-box {
+    max-width: 400px;
+    min-width: 200px;
+    background-color: gold;
+    padding: 20px;
+}
+.ex8-box {
+    max-height: 300px;
+    min-height: 100px;
+    background-color: salmon;
+    overflow: auto;
+    padding: 20px;
+}
+.ex9-container {
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid #333;
+}
+
+.ex9-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.ex10-box {
+    max-width: 300px;
+    background-color: powderblue;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+}

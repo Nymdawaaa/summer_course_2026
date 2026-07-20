@@ -1,0 +1,18 @@
+main {
+    height: 600px;
+    width: 800px;
+    background-color: dodgerblue;
+    color: goldenrod;
+    margin: 0 auto;
+}
+h2 {
+    color: aqua;
+    text-align: center;
+    padding-top: 60px;
+}
+p {
+    padding: 10px;
+    border: 2px dotted blue;
+    margin-top: 80px;
+    
+}
