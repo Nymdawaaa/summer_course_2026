@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "summer-course-2026-nymka-5e5a9",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
