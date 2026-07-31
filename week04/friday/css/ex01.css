@@ -1,0 +1,47 @@
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+  }
+
+  .cards {
+      padding: 16px;
+  }
+
+  .card {
+      background-color: #ffffff;
+      border: 1px solid #dddddd;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+  }
+
+  @media (min-width: 768px) {
+      .cards {
+          padding: 16px;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 16px;
+
+      }
+
+      .card {
+          background-color: #ffffff;
+          border: 1px solid #dddddd;
+          border-radius: 8px;
+          padding: 16px;
+          margin-bottom: 0;
+      }
+  }
+  @media (min-width : 1024px) {
+     .cards {
+      padding: 16px;
+      grid-template-columns: 1fr 1fr 1fr;
+      
+  }
+}
