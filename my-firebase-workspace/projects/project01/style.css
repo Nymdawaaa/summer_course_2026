@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f7f9f6;
+    color: #333;
+}
+
+
+.btn-primary {
+    background-color: #8cc63f;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #7ab332;
+}
+
+.btn-white {
+    background-color: white;
+    color: #8cc63f;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.logo-bold {
+    font-weight: bold;
+    color: #8cc63f;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 60px 8%;
+    background-color: #fff;
+}
+
+.avatar-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #e5f2d6;
+    border: 3px solid #8cc63f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder-avatar {
+    width: 150px;
+    height: 150px;
+    background-color: #8cc63f;
+    border-radius: 50%;
+}
+
+.hero-content h1 {
+    font-size: 2.8rem;
+    color: #333;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    color: #777;
+    margin-bottom: 25px;
+    max-width: 400px;
+}
+
+
+.clients {
+    text-align: center;
+    padding: 60px 8%;
+}
+
+.clients h2 {
+    font-size: 2.2rem;
+    color: #333;
+}
+
+.clients .subtitle {
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.client-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.card {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    max-width: 280px;
+    text-align: center;
+}
+
+.card-avatar {
+    width: 70px;
+    height: 70px;
+    background-color: #809bbd;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+}
+
+.card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card p {
+    font-size: 0.8rem;
+    color: #777;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card .role {
+    font-size: 0.75rem;
+    color: #aaa;
+    display: block;
+}
+
+.clients-action {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #8cc63f;
+    color: white;
+    padding: 40px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    font-size: 0.85rem;
+    opacity: 0.9;
+    line-height: 1.6;
+}

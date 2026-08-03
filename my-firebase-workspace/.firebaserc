@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "summer-course-2026-nymka"
+  },
+  "targets": {
+    "summer-course-2026-nymka": {
+      "hosting": {
+        "project01": [
+          "my-site01-ap"
+        ],
+        "projects02": [
+          "my-site02-app"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
