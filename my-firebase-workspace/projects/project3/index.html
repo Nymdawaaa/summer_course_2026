@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Scene Simulator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+</head>
+<body>
+  <div class="control-panel">
+    <h2>Weather Simulator</h2>
+    <label for="weatherSelect">Цаг агаар сонгох: </label>
+    <select id="weatherSelect">
+      <option value="sunny">Sunny (Нартай)</option>
+      <option value="rainy">Rainy (Бороотой)</option>
+      <option value="snowy">Snowy (Цастай)</option>
+      <option value="night">Night (Шөнө)</option>
+    </select>
+  </div>
+  
+  <div id="canvas-container"></div>
+
+  <script src="sketch.js"></script>
+</body>
+</html>
