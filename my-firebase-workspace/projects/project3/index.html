@@ -3,24 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather Scene Simulator</title>
+  <title>Weather Simulator</title>
   <link rel="stylesheet" href="style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
 </head>
 <body>
-  <div class="control-panel">
-    <h2>Weather Simulator</h2>
-    <label for="weatherSelect">Цаг агаар сонгох: </label>
-    <select id="weatherSelect">
-      <option value="sunny">Sunny (Нартай)</option>
-      <option value="rainy">Rainy (Бороотой)</option>
-      <option value="snowy">Snowy (Цастай)</option>
-      <option value="night">Night (Шөнө)</option>
-    </select>
-  </div>
-  
-  <div id="canvas-container"></div>
 
-  <script src="sketch.js"></script>
+
+  <div class="controls">
+    <h2>Weather Simulator</h2>
+    <div class="buttons">
+      <button onclick="setWeather('sunny')">☀️ Sunny</button>
+      <button onclick="setWeather('rainy')">🌧️ Rainy</button>
+      <button onclick="setWeather('snowy')">❄️ Snowy</button>
+      <button onclick="setWeather('night')">🌙 Night</button>
+    </div>
+    
+    
+    
+  </div>
+
+ 
+  <div id="sky" class="sunny">
+    
+    <div id="weather-effects"></div>
+    
+ 
+    <div class="celestial-body"></div>
+   
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+    <div class="cloud cloud4"></div>
+
+    <div class="mountains-container">
+      <div class="mountain m1"></div>
+      <div class="mountain m2"></div>
+      <div class="mountain m3"></div>
+      <div class="mountain m4"></div>
+    </div>
+    
+  
+    <div class="ground"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
