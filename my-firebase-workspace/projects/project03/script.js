@@ -38,3 +38,11 @@ function createElements(className, count) {
     container.appendChild(el);
   }
 }
+const snowyBtn = document.querySelector('.snowy-btn'); 
+
+snowyBtn.addEventListener('click', () => {
+  
+  document.body.classList.remove('sunny-mode', 'rainy-mode', 'night-mode');
+  
+  document.body.classList.add('snowy-mode');
+});

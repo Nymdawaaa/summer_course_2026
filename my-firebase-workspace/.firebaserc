@@ -10,6 +10,9 @@
         ],
         "projects02": [
           "my-site02-app"
+        ],
+        "project03": [
+          "my-site03-app"
         ]
       }
     }

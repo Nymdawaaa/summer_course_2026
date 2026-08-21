@@ -19,8 +19,8 @@
       ]
     },
     {
-      "target": "project3",
-      "public": "projects/project3",
+      "target": "project03",
+      "public": "projects/project03",
       "ignore": [
         "firebase.json",
         "**/.*",

@@ -1,0 +1,85 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 15px;
+}
+.game-info {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.game-info span {
+  color: #e74c3c;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+select, button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+select {
+  background-color: #fff;
+}
+
+#start-button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+}
+
+#start-button:hover {
+  background-color: #27ae60;
+}
+
+#reset-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+}
+
+#reset-button:hover {
+  background-color: #c0392b;
+}
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  border: 3px solid #34495e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

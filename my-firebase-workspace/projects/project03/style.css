@@ -54,8 +54,15 @@ body {
   height: 40px;
   background-color: #388e3c;
   z-index: 6;
+  transition: background-color 0.5s ease;
 }
 
+body.snowy .ground,
+body.snowy #ground,
+.snowy .ground {
+  background-color: #e2e8f0 !important;
+  border-top: 3px solid #ffffff;
+}
 
 .mountains-container {
   position: absolute;
@@ -70,10 +77,26 @@ body {
   position: absolute;
   bottom: 0;
   background-color: #4caf50;
-  
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
   clip-path: polygon(50% 0%, 65% 20%, 85% 60%, 100% 100%, 0% 100%, 15% 60%, 35% 20%);
   border-radius: 30px 30px 0 0;
   transition: background-color 1s ease;
+}
+
+.snowy .mountain {
+  background-color: #5a6572;
+}
+
+.snowy .mountain::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 35%;
+  background-color: #ffffff;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
 }
 
 .m1 {
@@ -111,9 +134,18 @@ body {
   z-index: 1;
 }
 
-.night .m1, .night .m4 { background-color: #1b4d20; }
-.night .m2 { background-color: #235e27; }
-.night .m3 { background-color: #2a6f2e; }
+.night .m1,
+.night .m4 {
+  background-color: #1b4d20;
+}
+
+.night .m2 {
+  background-color: #235e27;
+}
+
+.night .m3 {
+  background-color: #2a6f2e;
+}
 
 .celestial-body {
   position: absolute;
@@ -128,10 +160,18 @@ body {
 
 .cloud {
   position: absolute;
-  background: rgba(255, 255, 255, 0.9);
+
   border-radius: 50px;
   animation: moveClouds 10s linear infinite;
   z-index: 4;
+  background-color: #ffffff !important; 
+  opacity: 1 !important;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3), 
+              0 0 10px rgba(255, 255, 255, 0.8);
+  filter: contrast(150%) brightness(110%);
+}
+.cloud-part {
+  border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .cloud::before,
@@ -231,6 +271,7 @@ body {
   right: 25px;
 }
 
+
 @keyframes moveClouds {
   0% {
     transform: translateX(-200px);
@@ -241,9 +282,10 @@ body {
   }
 }
 
-.raindrop, .snowflake {
+.raindrop,
+.snowflake {
   position: absolute;
-  top: -20px; 
+  top: -20px;
   z-index: 7;
 }
 
@@ -267,8 +309,9 @@ body {
   0% {
     transform: translateY(0);
   }
+
   100% {
-    transform: translateY(105vh); 
+    transform: translateY(105vh);
   }
 }
 
@@ -276,6 +319,7 @@ body {
   0% {
     transform: translateY(0) rotate(0deg);
   }
+
   100% {
     transform: translateY(105vh) rotate(360deg);
   }
@@ -347,14 +391,14 @@ body {
   border-radius: 50%;
   box-shadow: 0 0 6px #ffffff;
   animation: twinkle 1.5s infinite alternate;
-  z-index: 2; 
+  z-index: 2;
 }
 
 .m1 {
   left: -10vw;
   width: 55vw;
   height: 320px;
-  background-color: #1b5e20; 
+  background-color: #1b5e20;
   z-index: 1;
 }
 
@@ -383,6 +427,16 @@ body {
 }
 
 
-.night .m1, .night .m4 { background-color: #0d3b11; }
-.night .m2 { background-color: #1b5e20; }
-.night .m3 { background-color: #2e7d32; }
+.night .m1,
+.night .m4 {
+  background-color: #0d3b11;
+}
+
+.night .m2 {
+  background-color: #1b5e20;
+}
+
+.night .m3 {
+  background-color: #2e7d32;
+}
+
